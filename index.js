@@ -4,7 +4,7 @@ const paddingY = 60;
 const paddingX = 100;
 let barWidth;
 
-const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9, 8];
 
 const chartContainer = d3
    .select(".chart")
