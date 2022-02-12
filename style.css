@@ -1,0 +1,42 @@
+body, html {
+   height: 100vh;
+   margin: 0;
+}
+
+.main-container {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #555;
+   overflow: visible;
+}
+
+.chart-outer {
+   position: relative;
+   width: fit-content;
+   background: #fff;
+   border-radius: 7px;
+   box-shadow: 3px 3px 19px #111111a9;
+}
+
+.title {
+   text-align: center;
+}
+
+.tooltip {
+   position: absolute;
+   background: gray;
+   color: #fff;
+   bottom: 15%;
+   text-align: center;
+   padding: 0.5rem;
+   border-radius: 5px;
+   transition: opacity 200ms linear;
+   white-space: nowrap;
+   box-shadow: 2px 2px 18px #2220209d;
+}
+
+.tooltip > p {
+   margin: 0.5rem;
+}
