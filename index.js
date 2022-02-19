@@ -20,6 +20,7 @@ d3.json(
 ).then(({ data }) => {
    const barWidth = width / data.length;
 
+   // Dates (x-axis)
    const dates = data.map((item) => new Date(item[0]));
    const maxDate = d3.max(dates);
    maxDate.setMonth(maxDate.getMonth() + 3);
