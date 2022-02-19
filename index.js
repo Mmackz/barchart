@@ -80,7 +80,6 @@ d3.json(
       .attr("transform", "translate(60, 10)")
       .attr("fill", "blue")
       .on("mouseover", function (event, data) {
-         console.log(event);
          const date = this.getAttribute("data-date");
          const amount = this.getAttribute("data-gdp");
          const index = this.getAttribute("index");
